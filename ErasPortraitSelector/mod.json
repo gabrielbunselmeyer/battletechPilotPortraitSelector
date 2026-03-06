@@ -1,0 +1,14 @@
+{
+    "Name": "ErasPortraitSelector",
+    "Enabled": true,
+    "Version": "1.0.0",
+    "Description": "Allows selecting portraits for all pilots in the barracks, not just the commander.",
+    "Author": "era",
+    "DLL": "ErasPortraitSelector.dll",
+    "DLLEntryPoint": "ErasPortraitSelector.Mod.Init",
+    "DependsOn": [
+        "CommanderPortraitLoader"
+    ],
+    "ConflictsWith": [],
+    "Settings": {}
+}
