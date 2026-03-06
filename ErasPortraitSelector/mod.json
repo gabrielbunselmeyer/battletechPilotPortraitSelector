@@ -10,5 +10,7 @@
         "CommanderPortraitLoader"
     ],
     "ConflictsWith": [],
-    "Settings": {}
+    "Settings": {
+        "DebugLogging": false
+    }
 }
