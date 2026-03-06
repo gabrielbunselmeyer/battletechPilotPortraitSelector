@@ -10,7 +10,7 @@ namespace ErasPortraitSelector
         internal static string ModDirectory;
         private static string LogPath;
 
-        internal static readonly bool IsDebug = false;
+        internal static readonly bool ShouldLog = false;
 
         public static void Init(string directory, string settingsJSON)
         {
@@ -26,7 +26,7 @@ namespace ErasPortraitSelector
 
         public static void Log(string message)
         {
-            if (!IsDebug)
+            if (!ShouldLog)
             {
                 return;
             }
