@@ -4,10 +4,11 @@ In-game pilot selector mod for Battletech.
 https://github.com/user-attachments/assets/3f3eb9f8-4c38-4b4f-94ec-c4d48b3b7cb2
 
 ### Usage
-1. Go to the Barracks.
-2. Ctrl + Click on the card of the pilot you want to edit.
-3. ???
-4. Profit.
+1. Put the `ErasPortraitSelector` folder inside your `Battletech/Mods` folder. 
+2. In-game, go to the Barracks.
+3. Ctrl + Click on the card of the pilot you want to edit.
+4. ???
+5. Profit.
 
 ### Adding Portraits
 You should use [CommanderPortraitLoader](https://github.com/BattletechModders/CommanderPortraitLoader); it's installed by default with BTA and Roguetech.
